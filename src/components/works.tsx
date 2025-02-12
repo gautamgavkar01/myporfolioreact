@@ -56,7 +56,7 @@ const ProjectCard = ({
           {/* Github */}
           <div
             onClick={() =>
-              window.open(source_code_link, "_blank", "noreferrer")
+              window.open("_blank", "noreferrer")
             }
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2"
           >
@@ -107,8 +107,7 @@ export const Works = () => {
           >
             Following projects showcases my skills and experience through
             real-world examples of my work. Each project is briefly described
-            with links to code repositories and live demos in it. It reflects my
-            ability to solve complex problems, work with different technologies,
+            links of live demos in it. It reflects my ability to solve complex problems, work with different technologies,
             and manage projects effectively.
           </motion.p>
         </div>

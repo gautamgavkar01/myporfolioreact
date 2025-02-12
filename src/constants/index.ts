@@ -53,12 +53,12 @@ export const NAV_LINKS = [
   {
     id: "contact",
     title: "Contact",
-    link: null,
+    link: "https://www.linkedin.com/in/gautam-gavkar-7256a4260/",
   },
   {
     id: "source-code",
     title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
+    link: "https://github.com/gautamgavkar01",
   },
 ] as const;
 
@@ -69,16 +69,12 @@ export const SERVICES = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Java Developer",
+    icon: web,
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ] as const;
 
@@ -97,7 +93,7 @@ export const TECHNOLOGIES = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "Java",
     icon: typescript,
   },
   {
@@ -121,75 +117,56 @@ export const TECHNOLOGIES = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ] as const;
 
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Web-Java Developer",
+    company_name: "Test Yantra Software Solutions Pvt Ltd",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2024 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed user-friendly web interfaces using HTML, CSS, JavaScript, and React.js to enhance user experience",
+      "Built and maintained backend logic using Node.js and Express.js for seamless application functionality.",
+      "Created and managed relational databases with MySQL and MongoDB for efficient data storage and retrieval.",
+      "Debugged and optimized code to improve application performance and scalability.",
+      "Collaborated with cross-functional teams to deliver end-to-end web application solutions.",
+      "Conducted rigorous testing and troubleshooting to ensure application reliability and security.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Celebal Technologies",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "June 2023 - Sep 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained web applications, integrating front-end and back-end functionalities for seamless performance.",
+      "Designed and optimized database schemas, queries, and stored procedures using SQL to ensure efficient data   management",
+      "Automated data handling processes by implementing complex SQL queries and triggers.",
+      "Conducted performance tuning and debugging of database queries to enhance application efficiency",
+      "Collaborated with team members to understand business requirements and implement technical solutions.",
+      "Documented project workflows and database designs for future scalability and maintenance.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Software Engineer",
+    company_name: "ITPreneur",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Jan 2025 - Ongoing",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained Java-based applications, ensuring high performance and scalability.",
+      "Performed bug fixes and optimized code for efficiency and reliability.",
+      "Designed and managed databases using PL/SQL, SQL, and MongoDB to support application functionality.",
+      "Collaborated with frontend teams to integrate user-friendly interfaces and enhance user experience.",
+      "Conducted system analysis and troubleshooting to improve application stability.",
+      "Worked closely with cross-functional teams to deliver software solutions aligned with business requirements.",
     ],
   },
 ] as const;
@@ -199,7 +176,7 @@ export const TESTIMONIALS = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+    name: "Diksha Agrawal",
     designation: "CFO",
     company: "Acme Co",
     image: user1,
@@ -225,6 +202,28 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
+    name: "Cryptoverse",
+    description:
+      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project5,
+    source_code_link: null,
+    live_site_link: "https://reactjscryptoapp.netlify.app/",
+  },
+  {
     name: "Disney+ Clone",
     description:
       "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
@@ -243,7 +242,7 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
+    source_code_link: null,
     live_site_link: "https://clonedisneyplus.web.app/",
   },
   {
@@ -265,7 +264,7 @@ export const PROJECTS = [
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
+    source_code_link: null,
     live_site_link: "https://fitness-gym-react.netlify.app/",
   },
   {
@@ -287,52 +286,8 @@ export const PROJECTS = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
+    source_code_link: null,
     live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
-  },
-  {
-    name: "Cryptoverse",
-    description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
   },
   {
     name: "Travel Advisor",
@@ -353,7 +308,7 @@ export const PROJECTS = [
       },
     ],
     image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
+    source_code_link: null,
     live_site_link: "https://travel-advisor-reactjs.netlify.app/",
   },
 ] as const;
@@ -362,21 +317,22 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "#",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/gautam-gavkar-7256a4260/",
   },
   {
     name: "Twitter",
     icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "#",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/gautamgavkar01",
   },
 ] as const;
+

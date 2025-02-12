@@ -7,6 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
+import { input } from "framer-motion/m";
 
 // Contact
 export const Contact = () => {
@@ -147,7 +148,7 @@ export const Contact = () => {
                 id="name"
                 value={form.name}
                 onChange={handleChange}
-                placeholder="John Doe"
+                placeholder="ex@mple --> Gautam Gavkar"
                 title="What's your name?"
                 disabled={loading}
                 aria-disabled={loading}
@@ -169,7 +170,7 @@ export const Contact = () => {
                 id="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="johndoe@email.com"
+                placeholder="ex@mple@email.com"
                 title="What's your email?"
                 disabled={loading}
                 aria-disabled={loading}
@@ -191,7 +192,7 @@ export const Contact = () => {
                 id="message"
                 value={form.message}
                 onChange={handleChange}
-                placeholder="Hello there!"
+                placeholder="Hello there! Type anything you want and send it to g@utam. He will reach out to you."
                 title="What do you want to say?"
                 disabled={loading}
                 aria-disabled={loading}
